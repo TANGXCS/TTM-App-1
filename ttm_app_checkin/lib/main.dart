@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ttm_app_checkin/screens/signin_screen.dart';
+import 'package:ttm_app_checkin/screens/SignInScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,6 +23,8 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
+        fontFamily: 'Sarabun_Medium',
+        visualDensity: VisualDensity.adaptivePlatformDensity,
         primarySwatch: Colors.blue,
       ),
       home: const SignInPage(),
